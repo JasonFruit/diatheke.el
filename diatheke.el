@@ -1,4 +1,4 @@
-;;; diatheke.el --- A minor mode to access the diatheke command-line interface to libsword
+;;; diatheke.el --- A minor mode using the diatheke command-line Bible tool
 
 ;; Copyright: (C) 2011-2012 Jason R. Fruit
 ;; URL: https://github.com/JasonFruit/diatheke.el
