@@ -1,7 +1,9 @@
-;;; diatheke.el --- A minor mode to access the diatheke command-line
-;;; interface to libsword
+;;; diatheke.el --- A minor mode to access the diatheke command-line interface to libsword
 
-;;; Copyright: (C) 2011 Jason R. Fruit
+;; Copyright: (C) 2011-2012 Jason R. Fruit
+;; URL: https://github.com/JasonFruit/diatheke.el
+;; Version: 1.0
+
 ;;
 ;;     This program is free software; you can redistribute it and/or
 ;;     modify it under the terms of the GNU General Public License as
@@ -22,7 +24,8 @@
 ;;
 ;; To use this minor mode, you must have diatheke properly installed
 ;; and on your PATH; you must also have installed at least one bible
-;; translation.
+;; translation.  Diatheke can be retrieved from:
+;; http://www.crosswire.org/wiki/Frontends:Diatheke
 ;;
 ;; To install diatheke.el, save this file somewhere in your Emacs load
 ;; path and put the following in your .emacs:
@@ -133,3 +136,4 @@
     ("\C-\c\C-p" . diatheke-phrase-search)
     ("\C-\c\C-r" . diatheke-regex-search))
   (setq diatheke-bible (car (diatheke-get-bible-list))))
+;;; diatheke.el ends here
