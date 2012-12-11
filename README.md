@@ -21,9 +21,10 @@ diatheke.el Emacs interface to the diatheke command-line Bible tool
 Commentary
 ----------------------------------------------------------------------
 
-To use this minor mode, you must have diatheke properly installed and
-on your `PATH`; you must also have installed at least one bible
-translation.
+To use this minor mode, you must have
+[diatheke](http://www.crosswire.org/wiki/Frontends:Diatheke) properly
+installed and on your `PATH`; you must also have installed at least
+one bible translation.
 
 To install `diatheke.el`, save this file somewhere in your Emacs load
 path and put the following in your .emacs:
